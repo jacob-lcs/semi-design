@@ -41,9 +41,6 @@ const local: Locale = {
         },
         selectDate: 'Voltar para selecionar a data',
         selectTime: 'período de seleção',
-        year: 'ano',
-        month: 'mês',
-        day: 'dia',
         monthText: '${year} ano ${month}', // 此处不使用标准token是因为需要做replace，月份M这个Token可能会被误伤，例如May
         months: {
             1: 'Jan',
@@ -91,7 +88,7 @@ const local: Locale = {
             Sun: 'Sun',
         },
         localeFormatToken: {
-            FORMAT_SWITCH_DATE: 'yyyy-MM-dd',
+            FORMAT_SWITCH_DATE: 'dd-MM-yyyy',
         },
     },
     Navigation: {

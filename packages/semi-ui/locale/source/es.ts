@@ -46,9 +46,6 @@ const locale: Locale = {
         },
         selectDate: 'Seleccionar fecha',
         selectTime: 'Seleccionar hora',
-        year: 'año',
-        month: 'mes',
-        day: 'día',
         monthText: '${month} ${year}',
         months: {
             1: 'Ene',
@@ -88,7 +85,7 @@ const locale: Locale = {
             Sun: 'Dom',
         },
         localeFormatToken: {
-            FORMAT_SWITCH_DATE: 'yyyy-MM-dd',
+            FORMAT_SWITCH_DATE: 'dd/MM/yyyy',
         },
     },
     Popconfirm: {

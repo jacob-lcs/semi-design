@@ -44,9 +44,6 @@ const local: Locale = {
         },
         selectDate: 'กลับไปยังวันที่ที่เลือก',
         selectTime: 'ช่วงเวลาการคัดเลือก',
-        year: 'ปี',
-        month: 'เดือน',
-        day: 'วัน',
         monthText: '${year}ปี ${month}', // 此处不使用标准token是因为需要做replace，月份M这个Token可能会被误伤，例如May
         months: {
             1: 'มกราคม',
@@ -87,7 +84,7 @@ const local: Locale = {
             Sun: 'อา',
         },
         localeFormatToken: {
-            FORMAT_SWITCH_DATE: 'yyyy-MM-dd',
+            FORMAT_SWITCH_DATE: 'dd/M/yyyy',
         },
     },
     Navigation: {

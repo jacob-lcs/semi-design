@@ -41,9 +41,6 @@ const local: Locale = {
         },
         selectDate: 'Pilih Tarikh',
         selectTime: 'Pilih Masa',
-        year: 'tahun',
-        month: 'bulan',
-        day: 'hari',
         monthText: '${month} ${year}',
         months: {
             1: 'Januari',
@@ -83,7 +80,7 @@ const local: Locale = {
             Sun: 'Ahad',
         },
         localeFormatToken: {
-            FORMAT_SWITCH_DATE: 'dd/MM/yyyy',
+            FORMAT_SWITCH_DATE: 'dd/M/yyyy',
         },
     },
     Popconfirm: {

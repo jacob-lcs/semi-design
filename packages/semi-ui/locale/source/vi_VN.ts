@@ -44,9 +44,6 @@ const local: Locale = {
         },
         selectDate: 'Quay lại ngày đã chọn',
         selectTime: 'thời gian lựa chọn',
-        year: 'năm',
-        month: 'tháng',
-        day: 'ngày',
         monthText: '${month} ${year}',
         months: {
             1: 'Giêng',
@@ -86,7 +83,7 @@ const local: Locale = {
             Sun: 'chủ nhật',
         },
         localeFormatToken: {
-            FORMAT_SWITCH_DATE: 'yyyy-MM-dd',
+            FORMAT_SWITCH_DATE: 'dd/MM/yyyy',
         },
     },
     Popconfirm: {

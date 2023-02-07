@@ -44,9 +44,6 @@ const local: Locale = {
         },
         selectDate: 'Tarih seçmek için geri dönün',
         selectTime: 'saat seçin',
-        year: 'yıl',
-        month: 'ay',
-        day: 'gün',
         monthText: '${year}yıl ${month}',
         months:
         {
@@ -87,7 +84,7 @@ const local: Locale = {
             Sun: 'Paz'
         },
         localeFormatToken: {
-            FORMAT_SWITCH_DATE: 'yyyy-MM-dd',
+            FORMAT_SWITCH_DATE: 'dd.MM.yyyy',
         },
     },
     Navigation:

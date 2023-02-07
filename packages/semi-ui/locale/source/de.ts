@@ -41,9 +41,6 @@ const local: Locale = {
         },
         selectDate: 'Datum auswählen',
         selectTime: 'Uhrzeit auswählen',
-        year: 'Jahr',
-        month: 'Monat',
-        day: 'Tag',
         monthText: '${month} ${year}',
         months: {
             1: 'Jan',
@@ -83,7 +80,7 @@ const local: Locale = {
             Sun: 'So.',
         },
         localeFormatToken: {
-            FORMAT_SWITCH_DATE: 'yyyy-MM-dd',
+            FORMAT_SWITCH_DATE: 'dd.MM.yyyy',
         },
     },
     Popconfirm: {

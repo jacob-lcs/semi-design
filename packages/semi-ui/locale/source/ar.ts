@@ -41,9 +41,6 @@ const local: Locale = {
         },
         selectDate: 'حدد تاريخ',
         selectTime: 'حدد الوقت',
-        year: 'عام',
-        month: 'شهر',
-        day: 'يوم',
         monthText: '${month} ${year}',
         months: {
             1: 'يناير',
@@ -83,7 +80,7 @@ const local: Locale = {
             Sun: 'الأحد‬',
         },
         localeFormatToken: {
-            FORMAT_SWITCH_DATE: 'dd-MM-yyyy',
+            FORMAT_SWITCH_DATE: 'yyyy/MM/dd',
         },
     },
     Popconfirm: {

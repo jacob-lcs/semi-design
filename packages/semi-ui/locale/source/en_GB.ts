@@ -6,8 +6,8 @@ const local: Locale = {
     dateFnsLocale: enGB,
     Pagination: {
         item: 'item',
-        pageSize: ' items / page',
-        page: ' pages',
+        pageSize: 'items/page',
+        page: 'pages',
         total: '',
         jumpTo: 'Jump to'
     },
@@ -41,9 +41,6 @@ const local: Locale = {
         },
         selectDate: 'Select Date',
         selectTime: 'Select Time',
-        year: 'year',
-        month: 'month',
-        day: 'day',
         monthText: '${month} ${year}',
         months: {
             1: 'Jan',
@@ -83,7 +80,7 @@ const local: Locale = {
             Sun: 'Sun',
         },
         localeFormatToken: {
-            FORMAT_SWITCH_DATE: 'yyyy-MM-dd',
+            FORMAT_SWITCH_DATE: 'MM/dd/yyyy',
         },
     },
     Popconfirm: {

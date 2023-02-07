@@ -40,9 +40,6 @@ export interface Locale {
         };
         selectDate: string;
         selectTime: string;
-        year: string;
-        month: string;
-        day: string;
         monthText: string;
         months: {
             1: string;

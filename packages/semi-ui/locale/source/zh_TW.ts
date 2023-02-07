@@ -41,9 +41,6 @@ const local: Locale = {
         },
         selectDate: '返回選擇日期',
         selectTime: '選擇時間',
-        year: '年',
-        month: '月',
-        day: '日',
         monthText: '${year}年 ${month}', // 此處不使用標准token是因爲需要做replace，月份M這個Token可能會被誤傷，例如May
         months: {
             1: '1月',
@@ -84,7 +81,7 @@ const local: Locale = {
             Sun: '日',
         },
         localeFormatToken: {
-            FORMAT_SWITCH_DATE: 'yyyy-MM-dd',
+            FORMAT_SWITCH_DATE: 'yyyy-M-dd',
         },
     },
     Navigation: {

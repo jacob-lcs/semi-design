@@ -41,9 +41,6 @@ const local: Locale = {
         },
         selectDate: 'Pilih Tarikh',
         selectTime: 'Pilih Waktu',
-        year: 'tahun',
-        month: 'bulan',
-        day: 'hari',
         monthText: '${month} ${year}',
         months: {
             1: 'Jan',

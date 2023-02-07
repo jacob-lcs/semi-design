@@ -1,9 +1,10 @@
 import { ro } from 'date-fns/locale';
+import { Locale } from '../interface';
 
 /**
  * [i18n-Romanian]
  */
-export default {
+const locale: Locale = {
     code: 'ro',
     dateFnsLocale: ro,
     Pagination: {
@@ -43,9 +44,6 @@ export default {
         },
         selectDate: 'Selectează data',
         selectTime: 'Selectează timpul',
-        year: 'an',
-        month: 'lună',
-        day: 'zi',
         monthText: '${month} ${year}',
         months: {
             1: 'Ian',
@@ -85,7 +83,7 @@ export default {
             Sun: 'dum',
         },
         localeFormatToken: {
-            FORMAT_SWITCH_DATE: 'yyyy-MM-dd',
+            FORMAT_SWITCH_DATE: 'dd.MM.yyyy',
         },
     },
     Popconfirm: {
@@ -106,6 +104,7 @@ export default {
     },
     Tree: {
         emptyText: 'Nici un rezultat',
+        searchPlaceholder: 'Căutare',
     },
     Cascader: {
         emptyText: 'Nici un rezultat',
@@ -154,4 +153,19 @@ export default {
     Form: {
         optional: '(opțional)',
     },
+    Image: {
+        preview: 'previzualizare',
+        loading: 'Se încarcă',
+        loadError: 'Incarcarea a esuat',
+        prevTip: 'Anterior',
+        nextTip: 'Următorul',
+        zoomInTip: 'A mari',
+        zoomOutTip: 'A micsora',
+        rotateTip: 'Roti',
+        downloadTip: 'Descarca',
+        adaptiveTip: 'Adaptați-vă la pagină',
+        originTip: 'Dimensiunea originală',
+    },
 };
+
+export default locale;

@@ -42,9 +42,6 @@ const local: Locale = {
         },
         selectDate: '선택 날짜 반환',
         selectTime: '시간 선택',
-        year: '년',
-        month: '월',
-        day: '주간',
         monthText: '${year}년 ${month}',
         months: {
             1: '1 월',

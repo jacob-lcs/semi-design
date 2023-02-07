@@ -6,8 +6,10 @@ const local: Locale = {
     dateFnsLocale: enUS,
     Pagination: {
         item: 'item',
-        pageSize: ' items / page',
-        page: ' pages',
+        // 涉及到单复数问题，mui 中的设计为：Rows per page: 10  https://mui.com/material-ui/react-pagination/#table-pagination
+        pageSize: 'items/page',
+        page: 'pages',
+        // 表示「共 n 页」
         total: '',
         jumpTo: 'Jump to'
     },
@@ -22,6 +24,7 @@ const local: Locale = {
         },
         begin: 'Start Time',
         end: 'End Time',
+        // 这里的英文为什么没有单位
         hour: '',
         minute: '',
         second: '',
@@ -41,9 +44,6 @@ const local: Locale = {
         },
         selectDate: 'Select Date',
         selectTime: 'Select Time',
-        year: 'year',
-        month: 'month',
-        day: 'day',
         monthText: '${month} ${year}',
         months: {
             1: 'Jan',
@@ -116,6 +116,7 @@ const local: Locale = {
         allDay: 'All Day',
         AM: '${time} AM',
         PM: '${time} PM',
+        // 这里是根据月份在前，日在后排序，中文：1月1日，英文：Jan 1，所以有的语言该字段没有翻译
         datestring: '',
         remaining: '${remained} more',
     },
@@ -147,7 +148,9 @@ const local: Locale = {
         clear: 'Clear',
         selectAll: 'Select all',
         clearSelectAll: 'Unselect all',
+        // 单复数形式，阿语的单复数有 6 种，应该如何定义
         total: 'Total ${total} items',
+        // 单复数形式，阿语的单复数有 6 种，应该如何定义
         selected: '${total} items selected',
     },
     Form: {
